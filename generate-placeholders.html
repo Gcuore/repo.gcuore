@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Generate Placeholder Images</title>
+</head>
+<body>
+    <h1>Placeholder Image Generator</h1>
+    <canvas id="canvas" width="512" height="512"></canvas>
+    <div>
+        <button onclick="generateIcon('repo-icon', '#FF9500')">Generate Repo Icon</button>
+        <button onclick="generateIcon('app1', '#FF9500')">Generate App 1 Icon</button>
+        <button onclick="generateIcon('app2', '#007AFF')">Generate App 2 Icon</button>
+        <button onclick="generateIcon('app3', '#5AC8FA')">Generate App 3 Icon</button>
+    </div>
+    <p>Right-click on the image and select "Save Image As..." to download.</p>
+
+    <script>
+        function generateIcon(name, color) {
+            const canvas = document.getElementById('canvas');
+            const ctx = canvas.getContext('2d');
+            
+            // Clear canvas
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            
+            // Draw rounded rectangle background
+            ctx.fillStyle = color;
+            roundRect(ctx, 0, 0, canvas.width, canvas.height, 100, true);
+            
+            // Draw text
+            ctx.fillStyle = 'white';
+            ctx.font = 'bold 80px Arial';
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            ctx.fillText(name, canvas.width / 2, canvas.height / 2);
+            
+            // Convert to image
+            const dataURL = canvas.toDataURL('image/png');
+            
+            // Create download link
+            const a = document.createElement('a');
+            a.href = dataURL;
+            a.download = `${name}.png`;
+            a.click();
+        }
+        
+        // Function to draw rounded rectangle
+        function roundRect(ctx, x, y, width, height, radius, fill) {
+            if (typeof radius === 'undefined') {
+                radius = 5;
+            }
+            ctx.beginPath();
+            ctx.moveTo(x + radius, y);
+            ctx.lineTo(x + width - radius, y);
+            ctx.quadraticCurveTo(x + width, y, x + width, y + radius);
+            ctx.lineTo(x + width, y + height - radius);
+            ctx.quadraticCurveTo(x + width, y + height, x + width - radius, y + height);
+            ctx.lineTo(x + radius, y + height);
+            ctx.quadraticCurveTo(x, y + height, x, y + height - radius);
+            ctx.lineTo(x, y + radius);
+            ctx.quadraticCurveTo(x, y, x + radius, y);
+            ctx.closePath();
+            if (fill) {
+                ctx.fill();
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+{
+  "name": "Gcuore",
+  "identifier": "com.gcuore.repo",
+  "sourceURL": "https://gcuore.vercel.app/apps.json",
+  "apps": [
+    {
+      "name": "Sample App 1",
+      "bundleIdentifier": "com.gcuore.sampleapp1",
+      "developerName": "Gcuore",
+      "version": "1.0.0",
+      "versionDate": "2023-06-01",
+      "versionDescription": "Initial release",
+      "downloadURL": "https://gcuore.vercel.app/apps/placeholders/app1.ipa",
+      "localizedDescription": "This is a sample app placeholder for the Gcuore AltStore repository.",
+      "iconURL": "https://gcuore.vercel.app/apps/placeholders/app1.png",
+      "tintColor": "#FF9500",
+      "size": 10000000,
+      "screenshotURLs": [
+        "https://gcuore.vercel.app/apps/placeholders/screenshots/app1_1.png",
+        "https://gcuore.vercel.app/apps/placeholders/screenshots/app1_2.png"
+      ]
+    },
+    {
+      "name": "Sample App 2",
+      "bundleIdentifier": "com.gcuore.sampleapp2",
+      "developerName": "Gcuore",
+      "version": "1.0.0",
+      "versionDate": "2023-06-01",
+      "versionDescription": "Initial release",
+      "downloadURL": "https://gcuore.vercel.app/apps/placeholders/app2.ipa",
+      "localizedDescription": "This is another sample app placeholder for the Gcuore AltStore repository.",
+      "iconURL": "https://gcuore.vercel.app/apps/placeholders/app2.png",
+      "tintColor": "#007AFF",
+      "size": 15000000,
+      "screenshotURLs": [
+        "https://gcuore.vercel.app/apps/placeholders/screenshots/app2_1.png",
+        "https://gcuore.vercel.app/apps/placeholders/screenshots/app2_2.png"
+      ]
+    },
+    {
+      "name": "Sample App 3",
+      "bundleIdentifier": "com.gcuore.sampleapp3",
+      "developerName": "Gcuore",
+      "version": "1.0.0",
+      "versionDate": "2023-06-01",
+      "versionDescription": "Initial release",
+      "downloadURL": "https://gcuore.vercel.app/apps/placeholders/app3.ipa",
+      "localizedDescription": "This is a third sample app placeholder for the Gcuore AltStore repository.",
+      "iconURL": "https://gcuore.vercel.app/apps/placeholders/app3.png",
+      "tintColor": "#5AC8FA",
+      "size": 20000000,
+      "screenshotURLs": [
+        "https://gcuore.vercel.app/apps/placeholders/screenshots/app3_1.png",
+        "https://gcuore.vercel.app/apps/placeholders/screenshots/app3_2.png"
+      ]
+    }
+  ],
+  "news": [
+    {
+      "title": "Welcome to Gcuore Repository",
+      "identifier": "welcome-gcuore",
+      "caption": "A new AltStore source for iOS apps",
+      "date": "2023-06-01",
+      "tintColor": "#FF9500",
+      "imageURL": "https://gcuore.vercel.app/icons/repo-icon.png",
+      "url": "https://gcuore.vercel.app",
+      "notify": false
+    }
+  ]
+}
