@@ -9,7 +9,7 @@
   "featuredApps": [],
   "apps": [
     {
-      "name": "Spotify",
+      "name": "AltSpotify",
       "bundleIdentifier": "com.gcuore.spotify",
       "marketplaceID": "",
       "developerName": "Eveespotify",
