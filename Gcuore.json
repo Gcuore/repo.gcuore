@@ -1,20 +1,16 @@
 {
-  "repo": {
-    "name": "Gcuore",
-    "identifier": "com.gcuore.repo",
-    "subtitle": "hi bro",
-    "description": "my apps",
-    "iconURL": "https://yt3.ggpht.com/vVUkmwc1SIbPKkh9wBfcmTjqhnqccAz74Ol_rni3fD1KOHAKdHREhlkRbbicgZg2ftIgWJBRoA=s108-c-k-c0x00ffffff-no-rj",
-    "website": "https://gcuore.github.io",
-    "patreonURL": "https://idk.idk/idk",
-    "tintColor": "#56e2b2",
-    "featuredApps": []
-  },
+  "name": "Gcuore",
+  "subtitle": "hi bro",
+  "description": "my apps",
+  "iconURL": "https://yt3.ggpht.com/vVUkmwc1SIbPKkh9wBfcmTjqhnqccAz74Ol_rni3fD1KOHAKdHREhlkRbbicgZg2ftIgWJBRoA=s108-c-k-c0x00ffffff-no-rj",
+  "website": "https://gcuore.github.io",
+  "patreonURL": "https://idk.idk/idk",
+  "tintColor": "#56e2b2",
+  "featuredApps": [],
   "apps": [
     {
       "name": "LiveContainer",
       "bundleIdentifier": "com.kdt.livecontainer",
-      "filename": "LiveContainer.ipa",
       "developerName": "Example Developer",
       "subtitle": "livecontainer",
       "localizedDescription": "idk",
@@ -29,7 +25,7 @@
           "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/3.4.0/LiveContainer.ipa",
           "size": 2800000,
           "date": "2025-05-19T19:52:00+02:00",
-          "localizedDescription": null,
+          "localizedDescription": "Bug fixes and performance improvements.",
           "minOSVersion": "12.0"
         }
       ],
@@ -37,91 +33,7 @@
         "entitlements": [],
         "privacy": [
           {
-            "name": "NSAppleMusicUsageDescription",
-            "usageDescription": "The guest app is requesting for this permission."
-          },
-          {
-            "name": "NSBluetoothAlwaysUsageDescription",
-            "usageDescription": "The guest app is requesting for this permission."
-          },
-          {
-            "name": "NSBluetoothPeripheralUsageDescription",
-            "usageDescription": "The guest app is requesting for this permission."
-          },
-          {
-            "name": "NSCalendarsFullAccessUsageDescription",
-            "usageDescription": "The guest app is requesting for this permission."
-          },
-          {
-            "name": "NSCalendarsWriteOnlyAccessUsageDescription",
-            "usageDescription": "The guest app is requesting for this permission."
-          },
-          {
             "name": "NSCameraUsageDescription",
-            "usageDescription": "The guest app is requesting for this permission."
-          },
-          {
-            "name": "NSContactsUsageDescription",
-            "usageDescription": "The guest app is requesting for this permission."
-          },
-          {
-            "name": "NSFaceIDUsageDescription",
-            "usageDescription": "The guest app is requesting for this permission."
-          },
-          {
-            "name": "NSFallDetectionUsageDescription",
-            "usageDescription": "The guest app is requesting for this permission."
-          },
-          {
-            "name": "NSGKFriendListUsageDescription",
-            "usageDescription": "The guest app is requesting for this permission."
-          },
-          {
-            "name": "NSHealthClinicalHealthRecordsShareUsageDescription",
-            "usageDescription": "The guest app is requesting for this permission."
-          },
-          {
-            "name": "NSHealthRequiredReadAuthorizationTypeIdentifiers",
-            "usageDescription": "The guest app is requesting for this permission."
-          },
-          {
-            "name": "NSHealthShareUsageDescription",
-            "usageDescription": "The guest app is requesting for this permission."
-          },
-          {
-            "name": "NSHealthUpdateUsageDescription",
-            "usageDescription": "The guest app is requesting for this permission."
-          },
-          {
-            "name": "NSHomeKitUsageDescription",
-            "usageDescription": "The guest app is requesting for this permission."
-          },
-          {
-            "name": "NSIdentityUsageDescription",
-            "usageDescription": "The guest app is requesting for this permission."
-          },
-          {
-            "name": "NSLocalNetworkUsageDescription",
-            "usageDescription": "The guest app is requesting for this permission."
-          },
-          {
-            "name": "NSLocationAlwaysAndWhenInUseUsageDescription",
-            "usageDescription": "The guest app is requesting for this permission."
-          },
-          {
-            "name": "NSLocationDefaultAccuracyReduced",
-            "usageDescription": "The guest app is requesting for this permission."
-          },
-          {
-            "name": "NSLocationTemporaryUsageDescriptionDictionary",
-            "usageDescription": "The guest app is requesting for this permission."
-          },
-          {
-            "name": "NSLocationUsageDescription",
-            "usageDescription": "The guest app is requesting for this permission."
-          },
-          {
-            "name": "NSLocationWhenInUseUsageDescription",
             "usageDescription": "The guest app is requesting for this permission."
           },
           {
@@ -129,43 +41,7 @@
             "usageDescription": "The guest app is requesting for this permission."
           },
           {
-            "name": "NSMotionUsageDescription",
-            "usageDescription": "The guest app is requesting for this permission."
-          },
-          {
-            "name": "NSNearbyInteractionAllowOnceUsageDescription",
-            "usageDescription": "The guest app is requesting for this permission."
-          },
-          {
-            "name": "NSNearbyInteractionUsageDescription",
-            "usageDescription": "The guest app is requesting for this permission."
-          },
-          {
-            "name": "NSPhotoLibraryAddUsageDescription",
-            "usageDescription": "The guest app is requesting for this permission."
-          },
-          {
             "name": "NSPhotoLibraryUsageDescription",
-            "usageDescription": "The guest app is requesting for this permission."
-          },
-          {
-            "name": "NSRemindersFullAccessUsageDescription",
-            "usageDescription": "The guest app is requesting for this permission."
-          },
-          {
-            "name": "NSSensorKitUsageDescription",
-            "usageDescription": "The guest app is requesting for this permission."
-          },
-          {
-            "name": "NSSiriUsageDescription",
-            "usageDescription": "The guest app is requesting for this permission."
-          },
-          {
-            "name": "NSSpeechRecognitionUsageDescription",
-            "usageDescription": "The guest app is requesting for this permission."
-          },
-          {
-            "name": "NSUserTrackingUsageDescription",
             "usageDescription": "The guest app is requesting for this permission."
           }
         ]
