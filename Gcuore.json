@@ -1,0 +1,58 @@
+{
+  "name": "Gcuore",
+  "subtitle": "hi bro",
+  "description": "my apps",
+  "iconURL": "https://yt3.ggpht.com/vVUkmwc1SIbPKkh9wBfcmTjqhnqccAz74Ol_rni3fD1KOHAKdHREhlkRbbicgZg2ftIgWJBRoA=s108-c-k-c0x00ffffff-no-rj",
+  "website": "https://gcuore.github.io",
+  "patreonURL": "https://idk.idk/idk",
+  "tintColor": "#56e2b2",
+  "featuredApps": [],
+  "apps": [
+    {
+      "name": "Spotify",
+      "bundleIdentifier": "com.spotify.client",
+      "marketplaceID": "",
+      "developerName": "Eveespotify",
+      "subtitle": "some hacky spotify",
+      "localizedDescription": "bruh",
+      "iconURL": "https://i.imgur.com/U0O1CDV.png",
+      "tintColor": "#1cd464",
+      "category": "entertainment",
+      "screenshots": [],
+      "versions": [
+        {
+          "downloadURL": "https://github.com/whoeevee/EeveeSpotify/releases/download/swift5.9.7/EeveeSpotify-5.9.7-9.0.42.ipa",
+          "size": 81100000,
+          "version": "5.9.7",
+          "buildVersion": "idk",
+          "date": "2025-05-19T19:32:00+02:00",
+          "localizedDescription": "Updated German localization by @wlxxd",
+          "minOSVersion": null
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "This lets you unlock new ways of interacting with other devices compatible with Spotify via Bluetooth.",
+          "NSCameraUsageDescription": "This lets you scan Spotify Codes.",
+          "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads or content to you.",
+          "NSHealthUpdateUsageDescription": "Spotify will use HealthKit data to provide personalised audio recommendations for your workouts.",
+          "NSMotionUsageDescription": "We will use this to understand which audio motivates you most.",
+          "NSBluetoothPeripheralUsageDescription": "This lets you unlock new ways of interacting with other devices compatible with Spotify via Bluetooth.",
+          "NSPhotoLibraryAddUsageDescription": "This lets you save images to your Photo Library.",
+          "NSLocalNetworkUsageDescription": "This lets you listen on different devices. Spotify will also get access to local audio files.",
+          "NSHealthShareUsageDescription": "Spotify will use HealthKit data to provide personalised audio recommendations for your workouts.",
+          "NSAppleMusicUsageDescription": "This will let you play your imported music on Spotify.",
+          "NSCalendarsUsageDescription": "This lets Spotify view and add events to your calendar.",
+          "NSMicrophoneUsageDescription": "This lets you control Spotify using your voice.",
+          "NSCalendarsWriteOnlyAccessUsageDescription": "This lets Spotify add events to your calendar.",
+          "NSFaceIDUsageDescription": "This lets you set access restrictions using Face ID.",
+          "NSContactsUsageDescription": "This lets Spotify access calendars you may have shared with your contacts.",
+          "NSPhotoLibraryUsageDescription": "This lets you select images from your Photo Library."
+        }
+      },
+      "patreon": {}
+    }
+  ],
+  "news": []
+}
