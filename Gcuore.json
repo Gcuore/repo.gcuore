@@ -10,7 +10,7 @@
   "apps": [
     {
       "name": "Spotify",
-      "bundleIdentifier": "com.spotify.client",
+      "bundleIdentifier": "com.gcuore.spotify",
       "marketplaceID": "",
       "developerName": "Eveespotify",
       "subtitle": "some hacky spotify",
