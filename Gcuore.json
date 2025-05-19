@@ -4,13 +4,11 @@
     "identifier": "com.gcuore.repo",
     "subtitle": "hi bro",
     "description": "my apps",
-    "website": "https://gcuore.github.io",
     "iconURL": "https://yt3.ggpht.com/vVUkmwc1SIbPKkh9wBfcmTjqhnqccAz74Ol_rni3fD1KOHAKdHREhlkRbbicgZg2ftIgWJBRoA=s108-c-k-c0x00ffffff-no-rj",
+    "website": "https://gcuore.github.io",
     "patreonURL": "https://idk.idk/idk",
     "tintColor": "#56e2b2",
-    "featuredApps": [
-      "com.kdt.livecontainer"
-    ]
+    "featuredApps": []
   },
   "apps": [
     {
@@ -19,12 +17,22 @@
       "filename": "LiveContainer.ipa",
       "developerName": "Example Developer",
       "subtitle": "livecontainer",
-      "localizedDescription": "A container app for running other apps live.",
+      "localizedDescription": "idk",
       "iconURL": "https://i.imgur.com/GDcCWYE.png",
       "tintColor": "#047bfc",
       "category": "entertainment",
-      "minOSVersion": "12.0",
       "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "3.4.0",
+          "buildVersion": 123,
+          "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/3.4.0/LiveContainer.ipa",
+          "size": 2800000,
+          "date": "2025-05-19T19:52:00+02:00",
+          "localizedDescription": null,
+          "minOSVersion": "12.0"
+        }
+      ],
       "appPermissions": {
         "entitlements": [],
         "privacy": [
@@ -162,17 +170,7 @@
           }
         ]
       },
-      "versions": [
-        {
-          "name": "3.4.0",
-          "version": "3.4.0",
-          "buildVersion": "123",
-          "date": "2025-05-19T19:52:00+02:00",
-          "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/3.4.0/LiveContainer.ipa",
-          "size": 2800000,
-          "minOSVersion": "12.0"
-        }
-      ]
+      "patreon": {}
     }
   ],
   "news": []
